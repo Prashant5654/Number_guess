@@ -22,11 +22,11 @@ read_num(){
           else
               if [[ $num -lt $random_num ]]
               then
-                echo echo "It's lower than that, guess again:"
+                echo  "It's lower than that, guess again:"
                 (( count++ ))
                 read_num
                 else
-                  echo echo "It's higher than that, guess again:"
+                  echo  "It's higher than that, guess again:"
                   (( count++ ))
                   read_num
               fi
